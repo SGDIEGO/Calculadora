@@ -1,0 +1,30 @@
+.margin-top{
+    margin: 20% 5px ;
+}
+
+.calculadora{
+    width: 400px;
+    height: auto;
+    border: solid black;
+}
+
+.respuesta{
+    background-color: aquamarine;
+    height: 100px;
+    width: auto;
+}
+
+.teclas{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.teclas-numeros{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}   
+
+.teclas-opciones{
+    display: flex;
+    flex-direction: column;
+}
